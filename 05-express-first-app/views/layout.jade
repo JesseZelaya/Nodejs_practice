@@ -4,4 +4,13 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    ul
+        li My Text
+    input(type='text').class-name#anyid
+    if condition
+        p it's true
+    - var arr = [1,2,3,4,5]
+    //using loops in jade
+    each value in arr
+        p= value
     block content
